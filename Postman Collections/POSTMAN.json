@@ -98,7 +98,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/lists?name=ListaTestowa&idBoard=64c62e005e6283a8f82749e8&key=9fcb7e6a8258becbf4577ffd88204ead&token=ATTAd80b9d0443ebd5c85edbdf62b92f954397270882a0606bfb968bdeb6d14972857BF41880",
+					"raw": "https://api.trello.com/1/lists?name=ListaTestowa2&idBoard=64c62e005e6283a8f82749e8&key=9fcb7e6a8258becbf4577ffd88204ead&token=ATTAd80b9d0443ebd5c85edbdf62b92f954397270882a0606bfb968bdeb6d14972857BF41880",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -112,7 +112,7 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "ListaTestowa"
+							"value": "ListaTestowa2"
 						},
 						{
 							"key": "idBoard",

@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "CreateBoard",
-			"_postman_id": "a9a0e542-288b-416a-b9f0-e9b6e036ed50",
+			"id": "a9a0e542-288b-416a-b9f0-e9b6e036ed50",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -47,7 +47,7 @@
 		},
 		{
 			"name": "CreateList",
-			"_postman_id": "6a47e9b8-5721-43ee-a333-5801cfc84a42",
+			"id": "6a47e9b8-5721-43ee-a333-5801cfc84a42",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -90,7 +90,7 @@
 		},
 		{
 			"name": "NewListDocumentation",
-			"_postman_id": "99f8946c-61eb-4638-9d95-2aa6e0f1c5c2",
+			"id": "99f8946c-61eb-4638-9d95-2aa6e0f1c5c2",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -133,7 +133,7 @@
 		},
 		{
 			"name": "CreateCard",
-			"_postman_id": "ca1f501b-356a-4878-8247-49480c023d69",
+			"id": "ca1f501b-356a-4878-8247-49480c023d69",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -182,7 +182,7 @@
 		},
 		{
 			"name": "PostDeleteCard",
-			"_postman_id": "c5bf8693-3746-43e4-becf-e18b4d2ea55c",
+			"id": "c5bf8693-3746-43e4-becf-e18b4d2ea55c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -231,7 +231,7 @@
 		},
 		{
 			"name": "CheckListOnCard",
-			"_postman_id": "76568a47-73c3-4a13-bb0a-0539fdad20f3",
+			"id": "76568a47-73c3-4a13-bb0a-0539fdad20f3",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -274,7 +274,7 @@
 		},
 		{
 			"name": "Checklist",
-			"_postman_id": "49d4096f-2096-44b0-8582-f44d7088edf5",
+			"id": "49d4096f-2096-44b0-8582-f44d7088edf5",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -313,7 +313,7 @@
 		},
 		{
 			"name": "UpdateCheckList",
-			"_postman_id": "0b0a97d2-f1c1-43ea-8fdf-b315bf7cec4e",
+			"id": "0b0a97d2-f1c1-43ea-8fdf-b315bf7cec4e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -358,7 +358,7 @@
 		},
 		{
 			"name": "Label",
-			"_postman_id": "39b0b3ac-8012-4585-ae30-49d771fa0c31",
+			"id": "39b0b3ac-8012-4585-ae30-49d771fa0c31",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -405,7 +405,7 @@
 		},
 		{
 			"name": "Label2",
-			"_postman_id": "45364392-d73e-442b-905f-205684d57e7d",
+			"id": "45364392-d73e-442b-905f-205684d57e7d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -452,7 +452,7 @@
 		},
 		{
 			"name": "New Request",
-			"_postman_id": "ef384ad4-ff1a-4a8b-8ac3-77bcd8e8e5ca",
+			"id": "ef384ad4-ff1a-4a8b-8ac3-77bcd8e8e5ca",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -488,7 +488,7 @@
 		},
 		{
 			"name": "AddOrg",
-			"_postman_id": "e7d02776-8347-4356-b7da-bf29cfcaf29c",
+			"id": "e7d02776-8347-4356-b7da-bf29cfcaf29c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -527,14 +527,46 @@
 		},
 		{
 			"name": "New Request",
-			"_postman_id": "0e8e81bc-68ca-4a43-9fa0-3b7032560b4f",
+			"id": "0e8e81bc-68ca-4a43-9fa0-3b7032560b4f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
+				"method": "PUT",
 				"header": [],
-				"url": null
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"64c64d75523ee638560398b3\",\r\n    \"name\": \"cia439\",\r\n    \"displayName\": \"FBI\",\r\n    \"desc\": \"\",\r\n    \"descData\": {\r\n        \"emoji\": {}\r\n    },\r\n    \"url\": \"https://trello.com/w/cia439\",\r\n    \"website\": null,\r\n    \"teamType\": null,\r\n    \"logoHash\": null,\r\n    \"logoUrl\": null,\r\n    \"products\": [],\r\n    \"powerUps\": [],\r\n    \"idMemberCreator\": \"64c625b03f46bc0f3d829056\",\r\n    \"limits\": {}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.trello.com/1/organizations/64c64d75523ee638560398b3?key={{APIkey}}&token={{Token}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"organizations",
+						"64c64d75523ee638560398b3"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{APIkey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						}
+					]
+				}
 			},
 			"response": []
 		}

@@ -456,7 +456,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/labels?name=Label&color=red&idBoard=64c62e005e6283a8f82749e8&key={{APIkey}}&token={{Token}}",
+					"raw": "https://api.trello.com/1/labels?name=Labelek&color=blue&idBoard=64c64a2dc5ea5caa00c33543&key={{APIkey}}&token={{Token}}",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -470,15 +470,15 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "Label"
+							"value": "Labelek"
 						},
 						{
 							"key": "color",
-							"value": "red"
+							"value": "blue"
 						},
 						{
 							"key": "idBoard",
-							"value": "64c62e005e6283a8f82749e8"
+							"value": "64c64a2dc5ea5caa00c33543"
 						},
 						{
 							"key": "key",

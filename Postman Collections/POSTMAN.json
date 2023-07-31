@@ -233,7 +233,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/cards?idList=64c631a999959cae10bd1768&key={{APIkey}}&token={{Token}}&name=Pierwsza kartka&desc=Pierwsza description",
+					"raw": "https://api.trello.com/1/cards?idList=64c631a999959cae10bd1768&key={{APIkey}}&token={{Token}}&name=Do delete&desc=Pierwsza description",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -259,13 +259,11 @@
 						},
 						{
 							"key": "name",
-							"value": "Pierwsza kartka",
-							"type": "text"
+							"value": "Do delete"
 						},
 						{
 							"key": "desc",
-							"value": "Pierwsza description",
-							"type": "text"
+							"value": "Pierwsza description"
 						}
 					]
 				}

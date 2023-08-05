@@ -877,7 +877,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/cards?idList=64ce2da92599377432bfc3be&key={{APIkey}}&token={{Token}}",
+					"raw": "https://api.trello.com/1/cards?idList=64ce2da92599377432bfc3be&key={{APIkey}}&token={{Token}}&name=Pierwsze zadanie&desc=Opis zadania",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -900,6 +900,16 @@
 						{
 							"key": "token",
 							"value": "{{Token}}"
+						},
+						{
+							"key": "name",
+							"value": "Pierwsze zadanie",
+							"type": "text"
+						},
+						{
+							"key": "desc",
+							"value": "Opis zadania",
+							"type": "text"
 						}
 					]
 				}

@@ -1264,7 +1264,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "AddDescBoard",
 			"id": "41348165-7cd9-4060-9e40-141661b41fd2",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true

@@ -782,7 +782,7 @@
 			"response": []
 		},
 		{
-			"name": "ListaInTesting",
+			"name": "ListaTesting",
 			"id": "2cf0ea75-e266-4787-8bbe-e53acb215348",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true

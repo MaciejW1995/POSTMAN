@@ -1508,7 +1508,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/labels?name=czerwony&color=red&idBoard=64ce2cf240b11e9c5d20c6a8&key={{APIkey}}&token={{Token}}",
+					"raw": "https://api.trello.com/1/labels?name=zielony&color=green&idBoard=64ce2cf240b11e9c5d20c6a8&key={{APIkey}}&token={{Token}}",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -1522,11 +1522,11 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "czerwony"
+							"value": "zielony"
 						},
 						{
 							"key": "color",
-							"value": "red"
+							"value": "green"
 						},
 						{
 							"key": "idBoard",

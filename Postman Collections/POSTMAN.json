@@ -1176,6 +1176,47 @@
 			"response": []
 		},
 		{
+			"name": "checkitem1 Copy",
+			"id": "44ddc6be-b67e-4f47-9ae4-23e8a520e36b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/checklists/64ce30ee8573f690c84efad0/checkItems?name=jeden&key={{APIkey}}&token={{Token}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"checklists",
+						"64ce30ee8573f690c84efad0",
+						"checkItems"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "jeden"
+						},
+						{
+							"key": "key",
+							"value": "{{APIkey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "checkitem2",
 			"id": "4d233d24-bd4b-4306-ba64-0e49c437f1e7",
 			"protocolProfileBehavior": {

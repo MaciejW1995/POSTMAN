@@ -1473,6 +1473,47 @@
 			"response": []
 		},
 		{
+			"name": "AddingLabel4",
+			"id": "06a6d6b0-03ff-4fc7-bc2e-e415edb5483d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/cards/64ce305ffdb8251425f13fc7/idLabels?key={{APIkey}}&token={{Token}}&value=64ce3212ae24e5595584ee90",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"cards",
+						"64ce305ffdb8251425f13fc7",
+						"idLabels"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{APIkey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "value",
+							"value": "64ce3212ae24e5595584ee90"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "New Request",
 			"id": "faa029b0-3cf2-491b-a5ec-79c9bfc0aa3b",
 			"protocolProfileBehavior": {

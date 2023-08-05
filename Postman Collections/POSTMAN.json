@@ -657,8 +657,41 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/?name=NewBoard&key={{APIkey}}&token={{Token}}&idOrganization=64ce2c014c6f5bc33742f46b",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "NewBoard"
+						},
+						{
+							"key": "key",
+							"value": "{{APIkey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "idOrganization",
+							"value": "64ce2c014c6f5bc33742f46b",
+							"type": "text"
+						}
+					]
+				}
 			},
 			"response": []
 		}

@@ -1514,14 +1514,42 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "OpisOrgUpdate",
 			"id": "faa029b0-3cf2-491b-a5ec-79c9bfc0aa3b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/organizations/64ce2c014c6f5bc33742f46b?key={{APIkey}}&token={{Token}}&desc=Nowy opis organizacji",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"organizations",
+						"64ce2c014c6f5bc33742f46b"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{APIkey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "desc",
+							"value": "Nowy opis organizacji"
+						}
+					]
+				}
 			},
 			"response": []
 		}

@@ -1144,7 +1144,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/checklists?idCard=64ce305ffdb8251425f13fc7&key={{APIkey}}&token={{Token}}&name=checklist",
+					"raw": "https://api.trello.com/1/checklists?idCard=64ce3654f4f870f89b87697e&key={{APIkey}}&token={{Token}}&name=checklist",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -1158,7 +1158,7 @@
 					"query": [
 						{
 							"key": "idCard",
-							"value": "64ce305ffdb8251425f13fc7"
+							"value": "64ce3654f4f870f89b87697e"
 						},
 						{
 							"key": "key",
@@ -1170,8 +1170,7 @@
 						},
 						{
 							"key": "name",
-							"value": "checklist",
-							"type": "text"
+							"value": "checklist"
 						},
 						{
 							"key": "pos",

@@ -1379,7 +1379,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/checklists/64ce30ee8573f690c84efad0/checkItems?name=jeden&key={{APIkey}}&token={{Token}}",
+					"raw": "https://api.trello.com/1/checklists/64ce30ee8573f690c84efad0/checkItems?name=dwa&key={{APIkey}}&token={{Token}}",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -1395,7 +1395,7 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "jeden"
+							"value": "dwa"
 						},
 						{
 							"key": "key",

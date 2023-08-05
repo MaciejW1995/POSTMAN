@@ -1381,6 +1381,47 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "AddingLabel3",
+			"id": "cd45ce19-8932-46a5-b755-7d14a8860c2d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/cards/64ce3030e120daac9343c4b7/idLabels?key={{APIkey}}&token={{Token}}&value=64ce3212ae24e5595584ee90",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"cards",
+						"64ce3030e120daac9343c4b7",
+						"idLabels"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{APIkey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "value",
+							"value": "64ce3212ae24e5595584ee90"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }

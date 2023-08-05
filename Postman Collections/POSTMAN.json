@@ -907,6 +907,45 @@
 			"response": []
 		},
 		{
+			"name": "NewCardToDo3",
+			"id": "7a9a1326-003d-40ba-9b2a-b549ca891f4e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/cards?idList=64ce2da92599377432bfc3be&key={{APIkey}}&token={{Token}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"cards"
+					],
+					"query": [
+						{
+							"key": "idList",
+							"value": "64ce2da92599377432bfc3be"
+						},
+						{
+							"key": "key",
+							"value": "{{APIkey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "NewCardInProgress1",
 			"id": "617e8acd-72ae-4a3c-beef-f453ef5dcd89",
 			"protocolProfileBehavior": {

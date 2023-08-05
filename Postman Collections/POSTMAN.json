@@ -1215,6 +1215,53 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "LabelGreen",
+			"id": "951758bc-fa26-4d46-9d8c-c7db1480c94b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/labels?name=czerwony&color=red&idBoard=64ce2cf240b11e9c5d20c6a8&key={{APIkey}}&token={{Token}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"labels"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "czerwony"
+						},
+						{
+							"key": "color",
+							"value": "red"
+						},
+						{
+							"key": "idBoard",
+							"value": "64ce2cf240b11e9c5d20c6a8"
+						},
+						{
+							"key": "key",
+							"value": "{{APIkey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }

@@ -1555,7 +1555,7 @@
 				"method": "PUT",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/boards/64ce2cf240b11e9c5d20c6a8?key={{APIkey}}&token={{Token}}",
+					"raw": "https://api.trello.com/1/boards/64ce2cf240b11e9c5d20c6a8?key={{APIkey}}&token={{Token}}&desc=AKTUALIZACJA OPISU 123&name=NOWA NAZWA",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -1575,6 +1575,16 @@
 						{
 							"key": "token",
 							"value": "{{Token}}"
+						},
+						{
+							"key": "desc",
+							"value": "AKTUALIZACJA OPISU 123",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "NOWA NAZWA",
+							"type": "text"
 						}
 					]
 				}

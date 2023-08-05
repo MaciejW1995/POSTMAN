@@ -1737,6 +1737,47 @@
 			"response": []
 		},
 		{
+			"name": "AddingLabel5",
+			"id": "27707c06-5150-43bf-bb3e-94cc0010f003",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/cards/64ce305ffdb8251425f13fc7/idLabels?key={{APIkey}}&token={{Token}}&value=64ce3212ae24e5595584ee90",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"cards",
+						"64ce305ffdb8251425f13fc7",
+						"idLabels"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{APIkey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "value",
+							"value": "64ce3212ae24e5595584ee90"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "OpisOrgUpdate",
 			"id": "faa029b0-3cf2-491b-a5ec-79c9bfc0aa3b",
 			"protocolProfileBehavior": {

@@ -1328,7 +1328,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/checklists/64ce36d1ec66ea091fcd6f63/checkItems?name=jeden&key={{APIkey}}&token={{Token}}",
+					"raw": "https://api.trello.com/1/checklists/64ce36d1ec66ea091fcd6f63/checkItems?name=trzy&key={{APIkey}}&token={{Token}}",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -1344,7 +1344,7 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "jeden"
+							"value": "trzy"
 						},
 						{
 							"key": "key",
